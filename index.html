@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Age Calculator</h1>
+    <label for="dob">Enter Your Birthdate:</label><br />
+    <input type="date" id="dob" /><br />
+
+    <label for="futureDate">Enter a future date to predict your age on that day:</label><br />
+<input type="date" id="futureDate" /><br />
+
+
+    <button onclick="calculateAge()">Calculate Age</button>
+
+    <div id="result"></div>
+    <div id="futureAge"></div>
+    <div id="countdown"></div>
+    <div id="zodiac"></div>
+  
+  <button id="downloadBtn" onclick="downloadResult()">Download Results</button>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
